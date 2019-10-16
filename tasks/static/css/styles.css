@@ -1,0 +1,129 @@
+.container-fluid{
+padding: 0;    
+}
+
+/* Barra de navegação*/
+
+.navbar {
+    border-bottom: 1px solid #333;
+    margin-bottom: 20px;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav a.nav-link {
+    color: #333;
+    letter-spacing: 1px;
+}
+
+/* botao de add */
+
+#ad-link{
+    text-decoration: none;
+    
+}
+
+.add-div{
+    background-color: #6476e2;
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+/*search*/
+.fas.fa-plus{
+    color: #fff;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.fas.fa-search{
+    position: absolute;
+    top: 12px;
+    right: 26px;
+}
+
+.search-div{
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+/* lista de tarefa */
+
+.list-div{
+    padding: 0;
+}
+.task-list{
+    padding-left: 0;
+}
+
+.task-item{
+    list-style: none;
+    font-size: 20px;
+    height: 50px;
+    padding-top: 10px;
+    border-bottom: 1px dashed #ccc;
+}
+.fas.fa-trash, .fas.fa-edit{
+    cursor: pointer;
+    margin: 5px;
+    float: right;    
+}
+.fas.fas.fa-trash{
+    color: #db1e47
+}
+.fas.fa-edit{
+    color: #13c43f
+}
+/* rodape*/
+
+footer{
+    background-color: #333;
+    height: 300px;
+    border-top: 2px solid #202020;
+    }
+
+    footer p{
+        color: #f5f5f5;
+        text-align: center;
+        top: 50x;
+        position: relative;
+
+    }
+
+    /* Messages */
+
+ul.messages {
+    padding: 0;
+}
+
+ul.messages li {
+
+    list-style: none;
+}
+
+/*  Paginação*/
+
+.pagination {
+    margin-bottom: 20px;
+}
+
+.step-links {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.step-links .current {
+    margin-left: 5px;
+    margin-right: 5px;
+}
